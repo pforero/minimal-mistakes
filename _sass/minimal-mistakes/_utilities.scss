@@ -240,10 +240,13 @@ body:hover .visually-hidden button {
   }
 
   .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
+  .fa-github-alt{
     /* color: $github-color;*/
     color: $primary-color;
+  }
+  .fa-github-square {
+    color: $github-color;
+    /* color: $primary-color;*/
   }
 
   .fa-gitlab {
@@ -263,10 +266,13 @@ body:hover .visually-hidden button {
     color: $lastfm-color;
   }
 
-  .fa-linkedin,
-  .fa-linkedin-in {
+  .fa-linkedin{
     /* color: $linkedin-color;*/
     color: $primary-color;
+  }
+  .fa-linkedin-in {
+    color: $linkedin-color;
+    /* color: $primary-color;*/
   }
 
   .fa-mastodon,
