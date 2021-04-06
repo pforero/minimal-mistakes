@@ -208,7 +208,7 @@ body:hover .visually-hidden button {
   .fab,
   .far,
   .fal {
-    color: $text-color;
+    color: $primary-color;
   }
 
   .fa-behance,
@@ -242,7 +242,8 @@ body:hover .visually-hidden button {
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: $github-color;
+    /* color: $github-color;*/
+    color: $primary-color;
   }
 
   .fa-gitlab {
@@ -264,7 +265,8 @@ body:hover .visually-hidden button {
 
   .fa-linkedin,
   .fa-linkedin-in {
-    color: $linkedin-color;
+    /* color: $linkedin-color;*/
+    color: $primary-color;
   }
 
   .fa-mastodon,

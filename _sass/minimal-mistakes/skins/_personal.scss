@@ -5,13 +5,13 @@
 /* Colors */
 $background-color: #F5F7F2 !default;
 $text-color: #1E1420 !default;
-$muted-text-color: $text-color !default;
+$muted-text-color: #B8C6A3 !default;
 $primary-color: #0D8FCD !default;
 $border-color: $primary-color !default;
 $footer-background-color: $primary-color !default;
 $link-color: #6796B7 !default;
 $masthead-link-color: $primary-color !default;
-$masthead-link-color-hover: $primary-color !default;
+$masthead-link-color-hover: $link-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 $success-color              : #40a979 !default;
