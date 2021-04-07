@@ -3,20 +3,27 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #F5F7F2 !default;
-$text-color: #1E1420 !default;
-$muted-text-color: #B8C6A3 !default;
-$primary-color: #0D8FCD !default;
-$border-color: $primary-color !default;
-$footer-background-color: $primary-color !default;
-$link-color: #6796B7 !default;
+$light-shades: #FAFBFA !default; /*Use this color as the background for your dark-on-light designs, or the text color of an inverted design.*/
+$light-accent: #9298A5 !default; /*Accent colors can be used to bring attention to design elements by contrasting with the rest of the palette.*/
+$main-brand-color: #0D8FCD !default; /*This color should be eye-catching but not harsh. It can be liberally applied to your layout as its main identity.*/
+$dark-accent: #8C7879 !default; /*Another accent color to consider. Not all colors have to be used - sometimes a simple color scheme works best.*/
+$dark-shades: #314362 !default; /*Use as the text color for dark-on-light designs, or as the background for inverted designs.*/
+
+
+$background-color: $light-shades !default;
+$text-color: dark-shades !default;
+$muted-text-color: #f44336 !default;
+$primary-color: $main-brand-color !default;
+$border-color: $light-accentr !default;
+$footer-background-color: $main-brand-color !default;
+$link-color: $light-accent !default;
 $masthead-link-color: $primary-color !default;
-$masthead-link-color-hover: $link-color !default;
+$masthead-link-color-hover: $light-accent !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-$success-color              : #40a979 !default;
-$warning-color              : #bd9941 !default;
-$danger-color               : #f44336 !default;
+$success-color              : #40A979 !default;
+$warning-color              : #BD9941 !default;
+$danger-color               : #F44336 !default;
 
 .page__footer {
   color: #fff !important; // override
