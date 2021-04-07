@@ -11,7 +11,7 @@ $dark-shades: #314362 !default; /*Use as the text color for dark-on-light design
 
 
 $background-color: $light-shades !default;
-$text-color: dark-shades !default;
+$text-color: $dark-shades !default;
 $muted-text-color: #f44336 !default;
 $primary-color: $main-brand-color !default;
 $border-color: $light-accent !default;
